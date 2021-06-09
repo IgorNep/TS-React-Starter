@@ -1,8 +1,11 @@
 {
-  "name": "igornep-setup-react",
+  "name": "ts-react-starter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@igornep"
+  },
   "scripts": {
     "start": "webpack serve --config webpack/webpack.config.js --env env=dev",
     "build": "webpack --config webpack/webpack.config.js --env env=prod ",
